@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    /* display: flex; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #9b59b6;
+}
+.main-form{
+    display: flex;
+    justify-content: center;
+   
+}
+.header{
+    height: 210px;
+    display:flex;
+    justify-content: center;
+    background-image:url(./photo-1541462608143-67571c6738dd.avif) ;
+    background-size: cover;
+    background-position: 50vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .header-div{
+    display:flex;
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 50%; */
+    
+
+
+  
+.container form .user-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0
+}
+
+form .user-input .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.user-input .input-box span.details{
+    display: flex;
+    font-weight: 500;
+    margin-bottom: 7px;
+    flex-direction: column;
+}
+.user-input .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.user-input .input-box input:focus,
+.user-input .input-box input:valid{
+    border-color: #9b59b6;
+}
+
+.submit{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #0d6db7;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+ 
+
+
+
+
+
+
